@@ -1,0 +1,201 @@
+[debug] [2021-08-15T16:38:32.738Z] ----------------------------------------------------------------------
+[debug] [2021-08-15T16:38:32.741Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-15T16:38:32.742Z] CLI Version:   9.16.0
+[debug] [2021-08-15T16:38:32.742Z] Platform:      win32
+[debug] [2021-08-15T16:38:32.742Z] Node Version:  v14.17.3
+[debug] [2021-08-15T16:38:32.744Z] Time:          Sun Aug 15 2021 22:08:32 GMT+0530 (India Standard Time)
+[debug] [2021-08-15T16:38:32.745Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-15T16:38:32.757Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-15T16:38:32.758Z] > authorizing via signed-in user (eagertoknow10@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Adiyta\Desktop\Work\REACT\whatsapp clone\whatsapp-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-08-15T16:38:46.451Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-08-15T16:38:51.308Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-08-15T16:38:51.309Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project whatsapp-clone-2021-ap (WhatsApp Clone 2021) 
+[debug] [2021-08-15T16:38:56.075Z] Error: EBUSY: resource busy or locked, rename 'C:\Users\Adiyta\.config\configstore\firebase-tools.json.4204121914' -> 'C:\Users\Adiyta\.config\configstore\firebase-tools.json'
+    at Object.renameSync (fs.js:794:3)
+    at Function.writeFileSync [as sync] (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\write-file-atomic\index.js:244:8)
+    at Configstore.set all [as all] (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:61:20)
+    at Configstore.set (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Object.makeActiveProject (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:149:31)
+    at Object.doSetup [as project] (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:98:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async init (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-08-15T16:39:46.579Z] ----------------------------------------------------------------------
+[debug] [2021-08-15T16:39:46.583Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-15T16:39:46.583Z] CLI Version:   9.16.0
+[debug] [2021-08-15T16:39:46.583Z] Platform:      win32
+[debug] [2021-08-15T16:39:46.583Z] Node Version:  v14.17.3
+[debug] [2021-08-15T16:39:46.585Z] Time:          Sun Aug 15 2021 22:09:46 GMT+0530 (India Standard Time)
+[debug] [2021-08-15T16:39:46.585Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-15T16:39:46.597Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-15T16:39:46.598Z] > authorizing via signed-in user (eagertoknow10@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Adiyta\Desktop\Work\REACT\whatsapp clone\whatsapp-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-08-15T16:40:10.248Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-08-15T16:40:14.993Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-08-15T16:40:14.993Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project whatsapp-clone-2021-ap (WhatsApp Clone 2021) 
+[debug] [2021-08-15T16:40:19.848Z] Error: EBUSY: resource busy or locked, rename 'C:\Users\Adiyta\.config\configstore\firebase-tools.json.4292950923' -> 'C:\Users\Adiyta\.config\configstore\firebase-tools.json'
+    at Object.renameSync (fs.js:794:3)
+    at Function.writeFileSync [as sync] (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\write-file-atomic\index.js:244:8)
+    at Configstore.set all [as all] (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:61:20)
+    at Configstore.set (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Object.makeActiveProject (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:149:31)
+    at Object.doSetup [as project] (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:98:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async init (C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-08-15T16:47:38.864Z] ----------------------------------------------------------------------
+[debug] [2021-08-15T16:47:38.866Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Adiyta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-15T16:47:38.867Z] CLI Version:   9.16.5
+[debug] [2021-08-15T16:47:38.867Z] Platform:      win32
+[debug] [2021-08-15T16:47:38.867Z] Node Version:  v14.17.3
+[debug] [2021-08-15T16:47:38.869Z] Time:          Sun Aug 15 2021 22:17:38 GMT+0530 (India Standard Time)
+[debug] [2021-08-15T16:47:38.870Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-15T16:47:38.882Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-15T16:47:38.883Z] > authorizing via signed-in user (eagertoknow10@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Adiyta\Desktop\Work\REACT\whatsapp clone\whatsapp-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-08-15T16:48:05.709Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-08-15T16:48:10.473Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-08-15T16:48:10.473Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project whatsapp-clone-2021-ap (WhatsApp Clone 2021) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-08-15T16:49:00.557Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-08-15T16:49:00.821Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-08-15T16:49:00.822Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.9.1","browserURL":"https://www.gstatic.com/firebasejs/8.9.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.9.1/firebase.tgz"},"live":{"version":"8.9","browserURL":"https://www.gstatic.com/firebasejs/live/8.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/8.9.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.9.1/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.9.1/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.9.1/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.9.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.9.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.9.1/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Adiyta\Desktop\Work\REACT\whatsapp clone\whatsapp-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1065904409&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-08-15T16:49:44.606Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"bc54bc208c06711053cf","redirect_uri":"http://localhost:9005","state":"1065904409"}
+[debug] [2021-08-15T16:49:45.006Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sun, 15 Aug 2021 16:49:48 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"9d14f3b721bbfd44b8b5e67b7c2c8aa6\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com render-temp.githubusercontent.com viewscreen.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"67AE:27F1:BDE93:E7D78:611945AC"}
+[debug] [2021-08-15T16:49:45.010Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-08-15T16:49:45.429Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-08-15T16:49:45.429Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"adityap817","id":71190260,"node_id":"MDQ6VXNlcjcxMTkwMjYw","avatar_url":"https://avatars.githubusercontent.com/u/71190260?v=4","gravatar_id":"","url":"https://api.github.com/users/adityap817","html_url":"https://github.com/adityap817","followers_url":"https://api.github.com/users/adityap817/followers","following_url":"https://api.github.com/users/adityap817/following{/other_user}","gists_url":"https://api.github.com/users/adityap817/gists{/gist_id}","starred_url":"https://api.github.com/users/adityap817/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adityap817/subscriptions","organizations_url":"https://api.github.com/users/adityap817/orgs","repos_url":"https://api.github.com/users/adityap817/repos","events_url":"https://api.github.com/users/adityap817/events{/privacy}","received_events_url":"https://api.github.com/users/adityap817/received_events","type":"User","site_admin":false,"name":"Aditya L Patil","company":null,"blog":"adityapatil.me","location":"Pune, India","email":null,"hireable":null,"bio":"C++ Programmer | Web Developer | Html | Css | JS | ReactJS | Firebase | Computer Engineering Student @DYPatilSoe \r\n","twitter_username":"adityap__817","public_repos":2,"public_gists":0,"followers":1,"following":1,"created_at":"2020-09-12T18:23:35Z","updated_at":"2021-08-15T16:49:28Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":1468,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as adityap817 
+[info] 
+[debug] [2021-08-15T16:50:41.393Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-08-15T16:50:41.641Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-08-15T16:50:41.799Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-08-15T16:50:41.799Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-15T16:50:42.037Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-08-15T16:50:42.037Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-15T16:51:39.367Z] >>> [apiv2][query] GET https://api.github.com/repos/adityap817/actions/secrets/public-key type=owner
+[debug] [2021-08-15T16:51:39.370Z] >>> [apiv2][query] GET https://api.github.com/repos///actions/secrets/public-key type=owner
+[debug] [2021-08-15T16:51:39.696Z] <<< [apiv2][status] GET https://api.github.com/repos/adityap817/actions/secrets/public-key 404
+[debug] [2021-08-15T16:51:39.696Z] <<< [apiv2][body] GET https://api.github.com/repos/adityap817/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-15T16:51:39.719Z] <<< [apiv2][status] GET https://api.github.com/repos///actions/secrets/public-key 404
+[debug] [2021-08-15T16:51:39.720Z] <<< [apiv2][body] GET https://api.github.com/repos///actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-15T16:51:41.601Z] >>> [apiv2][query] GET https://api.github.com/repos/WhatsApp-CLone-ReactJS-/actions/secrets/public-key type=owner
+[debug] [2021-08-15T16:51:41.921Z] <<< [apiv2][status] GET https://api.github.com/repos/WhatsApp-CLone-ReactJS-/actions/secrets/public-key 404
+[debug] [2021-08-15T16:51:41.921Z] <<< [apiv2][body] GET https://api.github.com/repos/WhatsApp-CLone-ReactJS-/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-15T16:51:46.771Z] >>> [apiv2][query] GET https://api.github.com/repos/adityap817/actions/secrets/public-key type=owner
+[debug] [2021-08-15T16:51:46.773Z] >>> [apiv2][query] GET https://api.github.com/repos///actions/secrets/public-key type=owner
+[debug] [2021-08-15T16:51:47.125Z] <<< [apiv2][status] GET https://api.github.com/repos///actions/secrets/public-key 404
+[debug] [2021-08-15T16:51:47.125Z] <<< [apiv2][body] GET https://api.github.com/repos///actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-15T16:51:47.128Z] <<< [apiv2][status] GET https://api.github.com/repos/adityap817/actions/secrets/public-key 404
+[debug] [2021-08-15T16:51:47.128Z] <<< [apiv2][body] GET https://api.github.com/repos/adityap817/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-15T16:52:02.517Z] >>> [apiv2][query] GET https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/actions/secrets/public-key type=owner
+[debug] [2021-08-15T16:52:02.886Z] <<< [apiv2][status] GET https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/actions/secrets/public-key 200
+[debug] [2021-08-15T16:52:02.886Z] <<< [apiv2][body] GET https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/actions/secrets/public-key {"key_id":"568250167242549743","key":"WSuo79LssAMribRyshVtvfWAmq9ZLDAK5wzm6Xvx5xo="}
+[debug] [2021-08-15T16:52:02.888Z] >>> [apiv2][query] GET https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS- [none]
+[debug] [2021-08-15T16:52:03.298Z] <<< [apiv2][status] GET https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS- 200
+[debug] [2021-08-15T16:52:03.298Z] <<< [apiv2][body] GET https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS- {"id":390743521,"node_id":"MDEwOlJlcG9zaXRvcnkzOTA3NDM1MjE=","name":"WhatsApp-CLone-ReactJS-","full_name":"adityap817/WhatsApp-CLone-ReactJS-","private":false,"owner":{"login":"adityap817","id":71190260,"node_id":"MDQ6VXNlcjcxMTkwMjYw","avatar_url":"https://avatars.githubusercontent.com/u/71190260?v=4","gravatar_id":"","url":"https://api.github.com/users/adityap817","html_url":"https://github.com/adityap817","followers_url":"https://api.github.com/users/adityap817/followers","following_url":"https://api.github.com/users/adityap817/following{/other_user}","gists_url":"https://api.github.com/users/adityap817/gists{/gist_id}","starred_url":"https://api.github.com/users/adityap817/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adityap817/subscriptions","organizations_url":"https://api.github.com/users/adityap817/orgs","repos_url":"https://api.github.com/users/adityap817/repos","events_url":"https://api.github.com/users/adityap817/events{/privacy}","received_events_url":"https://api.github.com/users/adityap817/received_events","type":"User","site_admin":false},"html_url":"https://github.com/adityap817/WhatsApp-CLone-ReactJS-","description":null,"fork":false,"url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-","forks_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/forks","keys_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/keys{/key_id}","collaborators_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/teams","hooks_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/hooks","issue_events_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/issues/events{/number}","events_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/events","assignees_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/assignees{/user}","branches_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/branches{/branch}","tags_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/tags","blobs_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/git/refs{/sha}","trees_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/git/trees{/sha}","statuses_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/statuses/{sha}","languages_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/languages","stargazers_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/stargazers","contributors_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/contributors","subscribers_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/subscribers","subscription_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/subscription","commits_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/commits{/sha}","git_commits_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/git/commits{/sha}","comments_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/comments{/number}","issue_comment_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/issues/comments{/number}","contents_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/contents/{+path}","compare_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/compare/{base}...{head}","merges_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/merges","archive_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/downloads","issues_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/issues{/number}","pulls_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/pulls{/number}","milestones_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/milestones{/number}","notifications_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/labels{/name}","releases_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/releases{/id}","deployments_url":"https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/deployments","created_at":"2021-07-29T14:04:21Z","updated_at":"2021-07-29T14:30:11Z","pushed_at":"2021-07-29T15:08:42Z","git_url":"git://github.com/adityap817/WhatsApp-CLone-ReactJS-.git","ssh_url":"git@github.com:adityap817/WhatsApp-CLone-ReactJS-.git","clone_url":"https://github.com/adityap817/WhatsApp-CLone-ReactJS-.git","svn_url":"https://github.com/adityap817/WhatsApp-CLone-ReactJS-","homepage":null,"size":202,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"temp_clone_token":"","allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"network_count":0,"subscribers_count":1}
+[debug] [2021-08-15T16:52:03.302Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-08-15T16:52:03.303Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-15T16:52:04.672Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 15 Aug 2021 16:52:08 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-15T16:52:04.815Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/whatsapp-clone-2021-ap/serviceAccounts  
+ {"accountId":"github-action-390743521","serviceAccount":{"displayName":"GitHub Actions (adityap817/WhatsApp-CLone-ReactJS-)","description":"A service account with permission to deploy to Firebase Hosting for the GitHub repository adityap817/WhatsApp-CLone-ReactJS-"}}
+[debug] [2021-08-15T16:52:07.577Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Aug 2021 16:52:11 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-15T16:52:07.578Z] >>> HTTP REQUEST GET https://iam.googleapis.com/v1/projects/whatsapp-clone-2021-ap/serviceAccounts/github-action-390743521@whatsapp-clone-2021-ap.iam.gserviceaccount.com  
+ 
+[debug] [2021-08-15T16:52:07.579Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-2021-ap:getIamPolicy  
+ 
+[debug] [2021-08-15T16:52:09.114Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Aug 2021 16:52:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-15T16:52:13.378Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Aug 2021 16:52:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1449","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-15T16:52:13.379Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-2021-ap:setIamPolicy  
+ {"policy":{"version":1,"etag":"BwXJm7It3J4=","bindings":[{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-wll9w@whatsapp-clone-2021-ap.iam.gserviceaccount.com"]},{"role":"roles/firebaserules.system","members":["serviceAccount:service-797359104201@firebase-rules.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-wll9w@whatsapp-clone-2021-ap.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:eagertoknow10@gmail.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:github-action-390743521@whatsapp-clone-2021-ap.iam.gserviceaccount.com"]},{"role":"roles/serviceusage.apiKeysViewer","members":["serviceAccount:github-action-390743521@whatsapp-clone-2021-ap.iam.gserviceaccount.com"]},{"role":"roles/firebasehosting.admin","members":["serviceAccount:github-action-390743521@whatsapp-clone-2021-ap.iam.gserviceaccount.com"]},{"role":"roles/run.viewer","members":["serviceAccount:github-action-390743521@whatsapp-clone-2021-ap.iam.gserviceaccount.com"]}]},"updateMask":"bindings"}
+[debug] [2021-08-15T16:52:19.828Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Aug 2021 16:52:23 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=2071","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-15T16:52:19.829Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/whatsapp-clone-2021-ap/serviceAccounts/github-action-390743521@whatsapp-clone-2021-ap.iam.gserviceaccount.com/keys  
+ {"keyAlgorithm":"KEY_ALG_UNSPECIFIED","privateKeyType":"TYPE_GOOGLE_CREDENTIALS_FILE"}
+[debug] [2021-08-15T16:52:21.635Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Aug 2021 16:52:25 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] +  Created service account github-action-390743521 with Firebase Hosting admin permissions. 
+[debug] [2021-08-15T16:52:21.754Z] >>> [apiv2][query] PUT https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/actions/secrets/FIREBASE_SERVICE_ACCOUNT_WHATSAPP_CLONE_2021_AP [none]
+[debug] [2021-08-15T16:52:21.754Z] >>> [apiv2][body] PUT https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/actions/secrets/FIREBASE_SERVICE_ACCOUNT_WHATSAPP_CLONE_2021_AP {"encrypted_value":"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","key_id":"568250167242549743"}
+[debug] [2021-08-15T16:52:22.149Z] <<< [apiv2][status] PUT https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/actions/secrets/FIREBASE_SERVICE_ACCOUNT_WHATSAPP_CLONE_2021_AP 201
+[debug] [2021-08-15T16:52:22.149Z] <<< [apiv2][body] PUT https://api.github.com/repos/adityap817/WhatsApp-CLone-ReactJS-/actions/secrets/FIREBASE_SERVICE_ACCOUNT_WHATSAPP_CLONE_2021_AP {}
+[info] +  Uploaded service account JSON to GitHub as secret FIREBASE_SERVICE_ACCOUNT_WHATSAPP_CLONE_2021_AP. 
+[info] i  You can manage your secrets at https://github.com/adityap817/WhatsApp-CLone-ReactJS-/settings/secrets. 
+[info] 

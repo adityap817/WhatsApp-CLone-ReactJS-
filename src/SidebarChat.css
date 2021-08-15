@@ -5,8 +5,17 @@ cursor: pointer;
 border-bottom: 1px solid #f6f6f6;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .sidebarChat:hover{
     background-color: #ebebeb;
+}
+
+.sidebarChat_info > p{
+    margin: 0px;
 }
 
 .sidebarChat__info > h2{
@@ -17,3 +26,8 @@ border-bottom: 1px solid #f6f6f6;
 .sidebarChat__info{
     margin-left: 15px;
 }
+
+.add-new-chat-title{
+    margin: 0px 0px 0px 10px;
+}
+
