@@ -4,6 +4,15 @@
     flex-direction: column;
 }
 
+
+.chat-room-name{
+    margin: 0px;
+}
+
+.chat-room-last-seen{
+    margin: 0;
+}
+
 .chat__header{
     padding: 20px;
     display: flex;
@@ -32,10 +41,10 @@
     border-radius: 10px;
     width: fit-content;
     background-color: white;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
-.chat_receiver{
+.chat__receiver{
     margin-left: auto;
     background-color: #aed393;
 }
@@ -95,7 +104,3 @@
     display: none;
 }
 
-.chat__footer > .MuiSvgIcon-root{
-    padding: 10px;
-    color: gray;
-}
